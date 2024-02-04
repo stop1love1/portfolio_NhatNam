@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4</title>
+    <link rel="stylesheet" href="buoi6_bai_1.css">
+</head>
+<body>
+    <script src="buoi6_bai_1.js"></script>
+    <section>
+    <h1>Form đăng ký</h1>
+    <form action="" onsubmit=" return validateForm()" name="form">
+        <p>Họ: <input type="text" name="ho" size="20" ></p>
+        <p>Tên: <input type="text" id="ten" size="20" ></p>
+        <p>Ngày sinh: Ngày 
+            <select size="1" name="day" >
+                <option selected value="1">1</option>
+                <option selected value="2">2</option>
+                <option selected value="3">3</option>
+                <option selected value="4">4</option>
+                <option selected value="5">5</option>
+                <option selected value="6">6</option>
+                <option selected value="7">7</option>
+                <option selected value="8">8</option>
+                <option selected value="9">9</option>
+                <option selected value="10">10</option>
+                <option selected value="11">11</option>
+                <option selected value="12">12</option>
+                <option selected value="13">13</option>
+                <option selected value="14">14</option>
+                <option selected value="15">15</option>
+                <option selected value="16">16</option>
+                <option selected value="17">17</option>
+                <option selected value="18">18</option>
+                <option selected value="19">19</option>
+                <option selected value="20">20</option>
+                <option selected value="21">21</option>
+                <option selected value="22">22</option>
+                <option selected value="23">23</option>
+                <option selected value="24">24</option>
+                <option selected value="25">25</option>
+                <option selected value="26">26</option>
+                <option selected value="27">27</option>
+                <option selected value="28">28</option>
+                <option selected value="29">29</option>
+                <option selected value="30">30</option>
+                <option selected value="31">31</option>
+            </select>
+            Tháng:
+            <select size="1" name="month" >
+                <option selected value="1">1</option>
+                <option selected value="2">2</option>
+                <option selected value="3">3</option>
+                <option selected value="4">4</option>
+                <option selected value="5">5</option>
+                <option selected value="6">6</option>
+                <option selected value="7">7</option>
+                <option selected value="8">8</option>
+                <option selected value="9">9</option>
+                <option selected value="10">10</option>
+                <option selected value="11">11</option>
+                <option selected value="12">12</option>
+            </select>
+            Năm:
+            <select size="1" name="year" >
+                <option selected value="1990">1990</option>
+                <option selected value="1991">1991</option>
+                <option selected value="1992">1992</option>
+                <option selected value="1993">1993</option>
+                <option selected value="1994">1994</option>
+                <option selected value="1995">1995</option>
+                <option selected value="1996">1996</option>
+                <option selected value="1997">1997</option>
+                <option selected value="1998">1998</option>
+                <option selected value="1999">1999</option>
+                <option selected value="2000">2000</option>
+                <option selected value="2001">2001</option>
+                <option selected value="2002">2002</option>
+                <option selected value="2003">2003</option>
+                <option selected value="2004">2004</option>
+                <option selected value="2005">2005</option>
+                <option selected value="2006">2006</option>
+                <option selected value="2007">2007</option>
+                <option selected value="2008">2008</option>
+                <option selected value="2009">2009</option>
+                <option selected value="2010">2010</option>               
+                <option selected value="2011">2011</option>
+                <option selected value="2012">2012</option>
+                <option selected value="2013">2013</option>
+                <option selected value="2014">2014</option>
+                <option selected value="2015">2015</option>
+                <option selected value="2016">2016</option>
+                <option selected value="2017">2017</option>
+                <option selected value="2018">2018</option>
+                <option selected value="2019">2019</option>
+                <option selected value="2020">2020</option>
+                <option selected value="2021">2021</option>
+                <option selected value="2022">2022</option>
+                <option selected value="2023">2023</option>
+                <option selected value="2024">2024</option>
+            </select>
+        </p>
+        <p>Giới tính:
+            <input type="radio" name="gioitinh" value="Nam" > Nam
+            <input type="radio" name="gioitinh" value="Nữ"> Nữ
+            <input type="radio" name="gioitinh" value="Khác"> Khác
+        </p>
+        <p>Số điện thoại: <input type="text" id="sdt" size="20" ></p>
+        <p>Sở thích:
+            <input type="checkbox" name="sothich" value="Đọc sách"> Đọc sách
+            <input type="checkbox" name="sothich" value="Xem phim"> Xem phim
+            <input type="checkbox" name="sothich" value="Nghe nhạc"> Nghe nhạc
+            <input type="checkbox" name="sothich" value="Ăn"> Đá bóng
+        </p>
+        <p>Khác: <input type="text" id="khac" size="20"></p>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    </section>
+<div style="text-align: right;position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%;cursor: pointer;line-height: 0;display:block !important;"><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&utm_campaign=000_logo&utm_medium=website&utm_content=footer_img"><img src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png" alt="www.000webhost.com"></a></div><script>function getCookie(t){for(var e=t+"=",n=decodeURIComponent(document.cookie).split(";"),o=0;o<n.length;o++){for(var i=n[o];" "==i.charAt(0);)i=i.substring(1);if(0==i.indexOf(e))return i.substring(e.length,i.length)}return""}getCookie("hostinger")&&(document.cookie="hostinger=;expires=Thu, 01 Jan 1970 00:00:01 GMT;",location.reload());var wordpressAdminBody=document.getElementsByClassName("wp-admin")[0],notification=document.getElementsByClassName("notice notice-success is-dismissible"),hostingerLogo=document.getElementsByClassName("hlogo"),mainContent=document.getElementsByClassName("notice_content")[0];if(null!=wordpressAdminBody&¬ification.length>0&&null!=mainContent && new Date().toISOString().slice(0, 10) > '2023-10-29' && new Date().toISOString().slice(0, 10) < '2023-11-27'){var googleFont=document.createElement("link");googleFontHref=document.createAttribute("href"),googleFontRel=document.createAttribute("rel"),googleFontHref.value="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700",googleFontRel.value="stylesheet",googleFont.setAttributeNode(googleFontHref),googleFont.setAttributeNode(googleFontRel);var css="@media only screen and (max-width: 576px) {#main_content {max-width: 320px !important;} #main_content h1 {font-size: 30px !important;} #main_content h2 {font-size: 40px !important; margin: 20px 0 !important;} #main_content p {font-size: 14px !important;} #main_content .content-wrapper {text-align: center !important;}} @media only screen and (max-width: 781px) {#main_content {margin: auto; justify-content: center; max-width: 445px;}} @media only screen and (max-width: 1325px) {.web-hosting-90-off-image-wrapper {position: absolute; max-width: 95% !important;} .notice_content {justify-content: center;} .web-hosting-90-off-image {opacity: 0.3;}} @media only screen and (min-width: 769px) {.notice_content {justify-content: space-between;} #main_content {margin-left: 5%; max-width: 445px;} .web-hosting-90-off-image-wrapper {position: absolute; display: flex; justify-content: center; width: 100%; }} .web-hosting-90-off-image {max-width: 90%;} .content-wrapper {min-height: 454px; display: flex; flex-direction: column; justify-content: center; z-index: 5} .notice_content {display: flex; align-items: center;} * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} .upgrade_button_red_sale{box-shadow: 0 2px 4px 0 rgba(255, 69, 70, 0.2); max-width: 350px; border: 0; border-radius: 3px; background-color: #ff4546 !important; padding: 15px 55px !important; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 600; color: #ffffff;} .upgrade_button_red_sale:hover{color: #ffffff !important; background: #d10303 !important;}",style=document.createElement("style"),sheet=window.document.styleSheets[0];style.styleSheet?style.styleSheet.cssText=css:style.appendChild(document.createTextNode(css)),document.getElementsByTagName("head")[0].appendChild(style),document.getElementsByTagName("head")[0].appendChild(googleFont);var button=document.getElementsByClassName("upgrade_button_red")[0],link=button.parentElement;link.setAttribute("href","https://www.hostinger.com/hosting-starter-offer?utm_source=000webhost&utm_medium=panel&utm_campaign=000-wp"),link.innerHTML='<button class="upgrade_button_red_sale">Claim deal</button>',(notification=notification[0]).setAttribute("style","padding-bottom: 0; padding-top: 5px; background-color: #040713; background-size: cover; background-repeat: no-repeat; color: #ffffff; border-left-color: #040713;"),notification.className="notice notice-error is-dismissible";var mainContentHolder=document.getElementById("main_content");mainContentHolder.setAttribute("style","padding: 0;"),hostingerLogo[0].remove();var h1Tag=notification.getElementsByTagName("H1")[0];h1Tag.className="000-h1",h1Tag.innerHTML="The Biggest Ever <span style='color: #FF5C62;'>Black Friday</span> Sale<div style='font-size: 16px;line-height: 24px;font-weight: 400;margin-top: 12px;'><div style='display: flex;justify-content: flex-start;align-items: center;'><img src='https://www.000webhost.com/static/default.000webhost.com/images/generic/green-check-mark.png' alt='' style='margin-right: 10px; width: 20px;'>Managed WordPress Hosting</div><div style='display: flex;justify-content: flex-start;align-items: center;'><img src='https://www.000webhost.com/static/default.000webhost.com/images/generic/green-check-mark.png' alt='' style='margin-right: 10px; width: 20px;'>WordPress Acceleration</div><div style='display: flex;justify-content: flex-start;align-items: center;'><img src='https://www.000webhost.com/static/default.000webhost.com/images/generic/green-check-mark.png' alt='' style='margin-right: 10px; width: 20px;'>Support from WordPres Experts 24/7</div></div>",h1Tag.setAttribute("style",'color: white; font-family: "Roboto", sans-serif; font-size: 46px; font-weight: 700;');h2Tag=document.createElement("H2");h2Tag.innerHTML="<span style='font-size: 20px'>$</span>2.49<span style='font-size: 20px'>/mo</span>",h2Tag.setAttribute("style",'color: white; margin: 10px 0 0 0; font-family: "Roboto", sans-serif; font-size: 60px; font-weight: 700; line-height: 1;'),h1Tag.parentNode.insertBefore(h2Tag,h1Tag.nextSibling);var paragraph=notification.getElementsByTagName("p")[0];paragraph.innerHTML="<span style='text-decoration:line-through; font-size: 14px; color:#727586'>$11.99.mo</span><br>+ 2 Months Free",paragraph.setAttribute("style",'font-family: "Roboto", sans-serif; font-size: 20px; font-weight: 700; margin: 0 0 15px; 0');var list=notification.getElementsByTagName("UL")[0];list.remove();var org_html=mainContent.innerHTML,new_html='<div class="content-wrapper">'+mainContent.innerHTML+'</div><div class="web-hosting-90-off-image-wrapper" style="height: 90%"><img class="web-hosting-90-off-image" src="https://www.000webhost.com/static/default.000webhost.com/images/sales/bf2023/hero.png"></div>';mainContent.innerHTML=new_html;var saleImage=mainContent.getElementsByClassName("web-hosting-90-off-image")[0]}else if(null!=wordpressAdminBody&¬ification.length>0&&null!=mainContent){var bulletPoints = mainContent.getElementsByTagName('li');var replacement=['Increased performance (up to 5x faster) - Thanks to Hostinger’s WordPress Acceleration and Caching solutions','WordPress AI tools - Creating a new website has never been easier','Weekly or daily backups - Your data will always be safe','Fast and dedicated 24/7 support - Ready to help you','Migration of your current WordPress sites to Hostinger is automatic and free!','Try Premium Web Hosting now - starting from $1.99/mo'];for (var i=0;i<bulletPoints.length;i++){bulletPoints[i].innerHTML = replacement[i];}}</script></body>
+</html>

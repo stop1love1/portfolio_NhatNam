@@ -1,0 +1,12 @@
+body { 
+    background: #fff; 
+    color: 333; 
+}
+@media(max-width:768px){
+    body { background: #e7e7e7; } 
+}
+.img{
+    max-width:100%;
+    height:auto;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+#slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }

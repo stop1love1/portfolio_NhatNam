@@ -1,0 +1,54 @@
+.block, .img, .hv, .icon{
+    width:170px;
+    height:170px;
+}
+.block{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.block .img{
+    top:0;
+    left:0;
+    position: absolute;
+    transition: 0.4s;
+}
+.block:hover .img{
+    transform: scale(1.2);
+}
+.block .hv{
+    opacity:0;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: black;
+    transition: 0.4s;
+ }
+.block:hover .hv{
+    opacity: 0.4;
+    transform: scale(1.2);
+
+}
+.block .icon{
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    color: white;
+    font-size: 30px;
+    opacity:0;
+    transition: 0.4s;
+}
+.block:hover .icon{
+    opacity: 1;
+}
+.body{
+    background-color: rgb(18, 13, 41);
+    color: white;
+}
+a{color: rgb(255, 255, 255);}
+h6:hover{color: blueviolet;}
+a:hover{text-decoration: none;}
+p:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}

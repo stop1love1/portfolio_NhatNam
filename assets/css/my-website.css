@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.main{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    background-color: cadetblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    opacity: 0.9;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu a:hover{
+    background-color: #0078ff;
+}
+
+.name{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title{
+    padding-bottom: 15px;
+}

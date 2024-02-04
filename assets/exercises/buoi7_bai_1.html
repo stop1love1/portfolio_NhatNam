@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="buoi7_bai_1.css">
+  <title>Giọt nhạc</title>
+</head>
+<body>
+  <header>
+    <a href="buoi7_bai_1.html" class="logo">
+            <img src="C:/Users/ltc/Documents/thiết kế web/images/logo nho.png"></a>
+    <nav class="main-nav">
+      <ul class="menu">
+        <li><a href="buoi7_bai_1.html">Trang chủ</a></li>
+        <li class="submenu">
+          <a href="#">Thể loại</a>
+          <ul>
+            <li><a href="#">Pop</a></li>
+            <li><a href="#">Ballad</a></li>
+            <li><a href="#">Hip Hop</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Nghệ sĩ</a></li>
+        <li><a href="#">Sự kiện</a></li>
+      </ul>
+    </nav>
+    <div class="menu-icon" onclick="toggleSidebar()">☰</div>
+  </header>
+  
+  <div class="sidebar" id="sidebar">
+    <!-- Sidebar content goes here -->
+    <ul>
+      <li><a href="#">Trang chủ</a></li>
+      <li><a href="#">Thể loại</a>
+        <ul>
+            <li><a href="#">Pop</a></li>
+            <li><a href="#">Ballad</a></li>
+            <li><a href="#">Hip Hop</a></li>
+          </ul></li>
+      <li><a href="#">Nghệ sĩ</a></li>
+      <li><a href="#">Sự kiện</a></li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <section class="featured-artists" id="featuredArtists">
+        <h2>Nghệ Sĩ Nổi Bật</h2>
+        <div class="artist" onclick="toggleDetails(this)">
+            <img src="https://i.pinimg.com/564x/36/cb/ec/36cbec59b481b0da64418dc2be118355.jpg" alt="Nghệ sĩ 1">
+            <p>ZAYN</p>
+            <div class="details">Thông tin chi tiết về ZAYN</div>
+        </div>
+        <div class="artist" onclick="toggleDetails(this)">
+            <img src="https://i.pinimg.com/564x/61/7e/f8/617ef8a7b1fa50ade50aa1e8e0c4a3c9.jpg" alt="Nghệ sĩ 2">
+            <p>Michael Jackson</p>
+            <div class="details">Thông tin chi tiết về Michael Jackson</div>
+        </div>
+        <div class="artist" onclick="toggleDetails(this)">
+            <img src="https://i.pinimg.com/564x/ef/a9/14/efa9146fe6025dc5d52e8a515d14152a.jpg" alt="Nghệ sĩ 3">
+            <p>Justin Bieber</p>
+            <div class="details">Thông tin chi tiết về Justin Bieber</div>
+        </div>
+    </section>
+  </div>
+
+  <script src="buoi7_bai_1.js"></script>
+</body>
+</html>

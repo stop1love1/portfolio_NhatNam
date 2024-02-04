@@ -1,0 +1,203 @@
+    /* Thiết lập style cho thanh menu */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #232323; /* Màu nền cho thanh menu */
+        color: #fff; /* Màu chữ */
+        padding: 30px;
+        border-bottom: 1px solid #ccc; /* Đường kẻ xám dưới thanh menu */
+    }
+    body{
+        background-color: #eceaea;
+    }
+    .logo img {
+        width: 200px;
+        height: 100px;
+        margin-left: 170px;
+        margin-top: -30px;
+        margin-bottom: -37px;
+    }
+
+    .search {
+        display: flex;
+        align-items: center;
+        margin-right: 170px;
+    }
+
+    .search-toggle {
+        display: none; /* Ẩn ô checkbox */
+    }
+
+    .search-icon {
+        font-size: 24px;
+        cursor: pointer;
+        color: #fff; /* Màu chữ cho biểu tượng kính lúp */
+        margin-left: 10px;
+    }
+
+    .search-box {
+        padding: 8px;
+        border-radius: 5px;
+        border: none;
+        display: none; /* Ẩn ô tìm kiếm ban đầu */
+    }
+
+    /* Hiển thị ô tìm kiếm khi checkbox được chọn */
+    .search-toggle:checked + .search-icon + .search-box {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        border-top: 1px solid #ccc; /* Đường kẻ ngang giữa hai hàng */
+        padding-top: 15px;
+        background-color: #232323; /* Màu nền cho hàng chức năng */
+        
+    }
+
+    .menu {
+        list-style: none;
+        display: flex;
+        margin-left: 200px;
+        padding: 0px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .menu li {
+        margin-right: 20px;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: #fff; /* Màu chữ cho chức năng */
+    }
+    .border-container {
+        background-color: #fff;
+        margin-top: 30px;
+        margin-left: 200px;
+        margin-right: 200px;
+        border: 1px solid #d6d4d4;
+        padding: 10px;
+        div{
+            margin-left: 80px;
+            margin-right: 800px;
+        }
+        .image-container {
+            display: flex;
+          }
+          
+          .image-item {
+            text-align: center;
+            margin: 0 10px;
+          }
+          
+          .image-item img {
+            width: 200px;
+            height: auto;
+          }
+          
+          .image-item p {
+            margin-top: 5px;
+          }
+          
+          /* CSS để tạo hiệu ứng khi hover vào ảnh hoặc text */
+          .image-item a:hover {
+            /* Đặt thuộc tính style tùy ý khi hover vào ảnh hoặc text */
+            /* Ví dụ: opacity: 0.7; để làm mờ khi hover */
+          }
+    }
+    h1{
+        padding-top: 5px;
+        padding-left: 0px;
+        margin-left: 20px;
+        margin-right: 350px;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+        margin-left: 20px;
+        margin-right: 300px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        font-size: 12px;
+        .red-text {
+            color: red;
+            font-weight: bold;
+        }
+        .grey-text {
+            color: grey;
+            font-weight: bold;
+        }
+    }
+    .ct1{
+        margin-left: 80px;
+        margin-right: 370px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .ct2{
+        margin-left: 80px;
+        margin-right: 370px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #333;
+    }
+    .img1 img{
+        margin-left: 60px;
+        margin-right: 400px;
+        width: 640px;
+        height: 640px;
+    }
+    .mt1, .mt2, .mt3, .mt4, .mt5, .mt6, .mt7, .mt8, .mt9, .mt10, .mt11{
+        margin-left: 80px;
+        margin-right: 370px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
+    }
+    .ct3, .ct4, .ct7, .ct10{
+        margin-left: 80px;
+        margin-right: 370px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .img2 img, .img3 img, .img4 img, .img6 img, .img7 img {
+        margin-left: 60px;
+        margin-right: 400px;
+        width: 640px;
+        height: 450px;
+    }
+    .nghieng, .ct5, .ct6, .ct8, .ct9, .ct11{
+        margin-left: 80px;
+        margin-right: 370px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
+        font-style: italic;
+    }
+    .img5 img{
+        margin-left: 60px;
+        margin-right: 400px;
+        width: 640px;
+        height: 670px;
+    }
+    .hv1 a{
+        color: #fff;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .hv1 a:hover{
+        color: red;
+        font-weight: bold;
+    }
+    .qc{
+        display: flex;
+    }
+    /* CSS để thiết lập hiển thị ảnh và text */
+  /* CSS để thiết lập hiển thị ảnh và text */
+
+  

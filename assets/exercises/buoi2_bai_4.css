@@ -1,0 +1,103 @@
+.container {
+    padding: 20px; 
+}
+.b31{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 20px;
+    border: 2px solid;
+    color: #000000;
+    background-color: #a6a5a5;
+}
+.sqrr{
+    font-size: 20px;
+    width: 15vw; 
+    height: 15vw; 
+    background-color: red; 
+    display: flex; 
+    align-items: center; 
+    color: white;
+    justify-content: center;
+}
+.sqrb{
+    font-size: 20px;
+    width: 15vw; 
+    height: 15vw; 
+    background-color: blue; 
+    display: flex; 
+    align-items: center; 
+    color: white;
+    justify-content: center;
+}
+.sqrg{
+    font-size: 20px;
+    width: 15vw; 
+    height: 15vw; 
+    background-color: green; 
+    display: flex; 
+    align-items: center; 
+    color: white;
+    justify-content: center;
+}
+.txt{
+    font-size: 20px;
+    color: blue;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    height: 100%;
+}
+.tl{
+    font-size: 30px;
+    font-weight: bold;
+}
+.tbl {
+    border-collapse: collapse; 
+    width: 100%; 
+}
+.tbl th {
+    background-color: rgb(30, 185, 102); 
+    padding: 8px; 
+    text-align: left; 
+    color: #fff;
+}
+.tbl tbody tr:nth-child(even) {
+    background-color: #efe9e9; 
+}
+.tbl tbody tr:nth-child(odd) {
+    background-color: #ffffff; 
+}
+.tbl td {
+    padding: 8px; 
+    text-align: left; 
+    border-bottom: 1px solid #ddd; 
+}
+.tbl td:last-child {
+    border-right: none; 
+}
+.tbl tbody tr:hover {
+    background-color: #ddd; 
+    transition: background-color 0.3s ease; 
+}
+.tbl tr td:not(:last-child) {
+    border-right: 2px solid #ddd;
+}
+.img-cont {
+    display: flex; 
+}
+.img {
+    flex: 1; 
+    position: relative;
+    margin: 0 5px;
+}
+.img img {
+    opacity: 0.5; 
+    transition: opacity 0.3s ease; 
+    max-width: 100%; 
+    height: auto;
+}
+.img:hover img {
+    opacity: 1; 
+}
+

@@ -1,0 +1,36 @@
+.menu {
+    font-family: Arial, sans-serif;
+}
+
+.main-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu > li {
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+    position: relative;
+    background-color: #2685e4;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.sub-menu > li {
+    display: block;
+    padding: 10px;
+}
+
+.sub-menu > li:hover {
+    background-color: #ddd;
+}
